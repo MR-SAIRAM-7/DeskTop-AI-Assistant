@@ -4,11 +4,17 @@ A voice-controlled AI assistant for Windows, designed to perform a variety of ta
 
 Features
 Voice Command Recognition: Uses a microphone to listen for commands and provide responses.
+
 Text-to-Speech (TTS): The assistant speaks responses aloud using pyttsx3.
+
 AI Chat Integration: Powered by OpenAI's GPT-3 to answer questions and engage in conversations.
+
 Application Control: Opens websites and system applications such as Notepad, Calculator, Spotify, and more.
+
 Time Reporting: Announces the current time when asked.
+
 Music Control: Can play music files stored on the system.
+
 Prerequisites
 Before you start, you will need to have the following installed:
 
@@ -25,15 +31,17 @@ subprocess
 datetime
 You can install the required libraries using pip:
 
-bash
-Copy code
 pip install sounddevice numpy scipy SpeechRecognition pyttsx3 openai
 Additionally, you will need to set up OpenAI API keys.
 
 Setting Up OpenAI API
+
 Create an account on OpenAI.
+
 Go to API Keys and generate an API key.
+
 Save the API key in a file named config.py inside the project directory with the following structure:
+
 python
 Copy code
 apikey = 'your-openai-api-key-here'
@@ -43,6 +51,7 @@ Clone the repository or download the project files to your local machine.
 Commands you can use:
 
 Open applications (e.g., "Open Google", "Open Notepad", "Open YouTube")
+
 Ask for the time ("What is the time?")
 Play music ("Open music")
 AI Chat ("Using artificial intelligence, tell me a joke")
