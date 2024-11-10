@@ -64,7 +64,7 @@ You can adjust the sensitivity by modifying the duration of the audio recording 
 Missing Libraries:
 
 If any libraries are missing, install them via pip (e.g., pip install pyttsx3).
-OpenAI Errors:
+
 
 Make sure your API key is correctly set in config.py.
 If you encounter errors with OpenAI, make sure the API quota is available.
